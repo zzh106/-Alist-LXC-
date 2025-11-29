@@ -55,17 +55,17 @@
 ================================================================================
 
 【方法一】在线一键安装（最快）
-bash <(curl -Ls https://你的GitHub地址/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/zzh106/-Alist-LXC-/main/install.sh)
 
 【方法二】下载后使用
-1. 下载脚本: wget https://你的GitHub地址/alist-manager.sh
+1. 下载脚本: wget https://raw.githubusercontent.com/zzh106/-Alist-LXC-/main/alist-manager.sh
 2. 添加权限: chmod +x alist-manager.sh
 3. 运行脚本: ./alist-manager.sh
 4. 选择功能: 选择 "1. 安装 Alist"
 
 【方法三】克隆仓库
-git clone https://你的GitHub地址/alist-lxc-manager.git
-cd alist-lxc-manager
+git clone https://github.com/zzh106/-Alist-LXC-.git
+cd -Alist-LXC-
 chmod +x alist-manager.sh
 ./alist-manager.sh
 
@@ -286,7 +286,7 @@ tail -f /opt/alist/data/log/log.log    查看应用日志
 ================================================================================
 
 【问题反馈】
-- 提交 Issue: https://github.com/你的仓库/issues
+- 提交 Issue: https://github.com/zzh106/-Alist-LXC-/issues
 - 查看文档: docs/ 目录下的各类文档
 
 【参与贡献】
@@ -300,9 +300,9 @@ tail -f /opt/alist/data/log/log.log    查看应用日志
 2. 阅读 docs/alist-installation-guide.md
 3. 访问 Alist 官方文档: https://alist.nn.ci/
 
-【联系方式】
-GitHub: https://github.com/你的仓库
-Email: 你的邮箱
+【项目地址】
+GitHub: https://github.com/zzh106/-Alist-LXC-
+作者: zzh106
 
 ================================================================================
                                 许可信息
