@@ -7,7 +7,7 @@
 在 PVE LXC 容器中执行一条命令：
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/你的仓库/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/zzh106/-Alist-LXC-/main/install.sh)
 ```
 
 然后选择"1. 安装 Alist"，等待完成即可。
@@ -39,7 +39,7 @@ ssh root@容器IP
 ### 步骤 3: 下载脚本
 
 ```bash
-wget https://raw.githubusercontent.com/你的仓库/main/alist-manager.sh
+wget https://raw.githubusercontent.com/zzh106/-Alist-LXC-/main/alist-manager.sh
 chmod +x alist-manager.sh
 ```
 
@@ -68,7 +68,7 @@ chmod +x alist-manager.sh
 
 ```bash
 # 1. 下载脚本
-root@debian:~# wget https://raw.githubusercontent.com/你的仓库/main/alist-manager.sh
+root@debian:~# wget https://raw.githubusercontent.com/zzh106/-Alist-LXC-/main/alist-manager.sh
 root@debian:~# chmod +x alist-manager.sh
 
 # 2. 运行脚本

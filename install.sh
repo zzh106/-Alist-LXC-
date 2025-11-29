@@ -31,7 +31,7 @@ fi
 
 # 下载主脚本
 echo -e "${BLUE}[2/3]${NC} 下载管理脚本..."
-SCRIPT_URL="https://raw.githubusercontent.com/你的仓库/main/alist-manager.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/zzh106/-Alist-LXC-/main/alist-manager.sh"
 wget -q -O /tmp/alist-manager.sh "$SCRIPT_URL"
 
 if [ $? -ne 0 ]; then

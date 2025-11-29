@@ -30,7 +30,7 @@
 
 ```bash
 # 1. 下载脚本
-wget https://raw.githubusercontent.com/你的仓库/main/alist-manager.sh
+wget https://raw.githubusercontent.com/zzh106/-Alist-LXC-/main/alist-manager.sh
 
 # 2. 添加执行权限
 chmod +x alist-manager.sh
@@ -42,14 +42,14 @@ chmod +x alist-manager.sh
 ### 方法二：一键执行
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/你的仓库/main/alist-manager.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/zzh106/-Alist-LXC-/main/install.sh)
 ```
 
 ### 方法三：克隆仓库
 
 ```bash
 # 克隆项目
-git clone https://github.com/你的仓库/alist-lxc-manager.git
+git clone https://github.com/zzh106/-Alist-LXC-.git
 cd alist-lxc-manager
 
 # 运行脚本
