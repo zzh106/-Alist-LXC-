@@ -1,0 +1,32 @@
+# 备份文件
+*.backup
+*.bak
+*~
+
+# 临时文件
+*.tmp
+*.temp
+.DS_Store
+
+# 日志文件
+*.log
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 测试文件
+test/
+*.test
+
+# 压缩文件
+*.tar.gz
+*.zip
+*.rar
+
+# 本地配置
+local_config.sh
+.env
+
